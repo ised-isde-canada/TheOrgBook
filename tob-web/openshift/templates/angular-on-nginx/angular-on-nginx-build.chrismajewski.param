@@ -4,7 +4,7 @@
 # Template File: ../tob-web/openshift/templates/angular-on-nginx/angular-on-nginx-build.json
 #=========================================================
 NAME=angular-on-nginx
-SOURCE_IMAGE_NAMESPACE=openshift
+SOURCE_IMAGE_NAMESPACE=devex-von-tools
 SOURCE_IMAGE_NAME=angular-app
 SOURCE_IMAGE_TAG=latest
 RUNTIME_IMAGE_NAMESPACE=devex-von-tools
