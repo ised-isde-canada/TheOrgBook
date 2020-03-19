@@ -5,7 +5,7 @@
 #=========================================================
 NAME=angular-on-nginx
 SOURCE_IMAGE_NAMESPACE=devex-von-tools
-SOURCE_IMAGE_NAME=angular-app
+SOURCE_IMAGE_NAME=angular
 SOURCE_IMAGE_TAG=latest
 RUNTIME_IMAGE_NAMESPACE=devex-von-tools
 RUNTIME_IMAGE_NAME=nginx-runtime
