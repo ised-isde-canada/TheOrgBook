@@ -22,6 +22,7 @@
 </div>
 
 <div class="creds-list" *ngIf="format==='rows'">
+  <ng-container *ngIf="stateSvc.filterActive === 'true'; else archiveTemplate">
   <div class="row cred-row" *ngFor="let cred of records">
     <div class="col-sm-4">
       <div class="cred-title">
